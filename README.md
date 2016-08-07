@@ -1,5 +1,5 @@
 # Base16 Env
-A set of scripts to set $base[0-F] environement variables
+A set of scripts to set $base[0-F] environment variables
 
 ## Use Cases
 * You want a unified way to deal with colors across programs
@@ -23,7 +23,7 @@ In `config.fish` place the following lines:
 
 ## Other Scripts
 Included is a base16-shell script to set the terminal color scheme from the 
-environement variables. Put the following lines after you source the color scheme:
+environment variables. Put the following lines after you source the color scheme:
 
 `~/.bashrc` or `~/.zshrc`:
 
