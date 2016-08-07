@@ -1,0 +1,6 @@
+bash: 
+    extension: .sh
+    output: bash
+fish: 
+    extension: .fish
+    output: fish
