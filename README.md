@@ -8,18 +8,20 @@ A set of scripts to set $base[0-F] environment variables
 
     git clone https://github.com/SolitaryCipher/base16-env.git ~/.config/base16-env
 
+Link your desired colorscheme from `$HOME/.config/base16-env/*sh/` to `$HOME/.config/base16-env/base16-shell.[fi]sh`
+
 ## Shells
 
 ### Bash/ZSH
 In `~/.bashrc` or `~/.zshrc` place the following line:
     
-    source $HOME/.config/base16-env/bash/(YOUR COLOR SCHEME).sh
+    source $HOME/.config/base16-env/base16-env.sh
 
 
 ### Fish
 In `config.fish` place the following lines:
 
-    source $HOME/.config/base16-env/fish/(YOUR COLOR SCHEME).fish
+    source $HOME/.config/base16-env/base16-env.fish
 
 ## Other Scripts
 Included is a base16-shell script to set the terminal color scheme from the 
