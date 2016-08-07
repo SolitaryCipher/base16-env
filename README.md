@@ -24,11 +24,12 @@ In `config.fish` place the following lines:
 ## Other Scripts
 Included is a base16-shell script to set the terminal color scheme from the 
 environement variables. Put the following lines after you source the color scheme:
+
 `~/.bashrc` or `~/.zshrc`:
 
     eval $HOME/.config/base16-env/base16-shell.sh
 
-`config.fish`
+`config.fish`:
 
     eval sh $HOME/.config/base16-env/base16-shell.sh
   
